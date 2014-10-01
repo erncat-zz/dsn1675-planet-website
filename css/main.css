@@ -36,6 +36,11 @@ img {
     text-align: center;
 }
 
+.intro {
+   background-color: #E2E2E2;
+    text-align:center;
+}
+
 .masthead {
     background-color: #ccc;
     overflow: hidden;
