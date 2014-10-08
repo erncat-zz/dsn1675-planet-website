@@ -41,15 +41,21 @@ img {
     text-align:center;
 }
 
+.characteristics {
+    background-color: #e2e2e2;
+}
+
+.pictures {
+    background-color: #efefef;
+}
+
 .masthead {
     background-color: #ccc;
     overflow: hidden;
 }
 
 .nav {
-    margin: 0;
-    padding: 1.2em 0 2em 0;
-    list-style: none;   
+    list-style: none;
 }
 
 .nav li {
@@ -58,7 +64,6 @@ img {
 
 .nav a {
     display: block;
-    padding: 0;
     color: #0074D9;
     text-decoration: none;
 }
@@ -80,12 +85,10 @@ img {
     
     .header {
         float: left;
-        padding: 0 0 .2em 0;
     }
     
     .nav {
         float: left;
-        padding: 1em 0 .9em 0;
     }
     
 }
