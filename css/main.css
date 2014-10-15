@@ -16,6 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size:110%;
+    }
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size:120%;
+    }
+    
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size:130%;
+    }
+    
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -54,6 +78,10 @@ img {
     overflow: hidden;
 }
 
+.discovery {
+    background-color: #e2e2e2;
+}
+
 .nav {
     list-style: none;
 }
@@ -68,7 +96,7 @@ img {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 25em) {
 
     .nav li {
         display: inline-block;
@@ -81,7 +109,7 @@ img {
 
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
     
     .header {
         float: left;
@@ -91,4 +119,33 @@ img {
         float: left;
     }
     
+    .navfooter {
+        float: right;
+    }
+    
 }
+
+@media only screen and (min-width: 60em) {
+    
+    .data dt {
+        float: left;
+        width: 16em;
+        clear: left;
+    }
+    
+    .data dd {
+        float: left;
+    }
+    
+    .caption {
+        padding-left: 1.5rem;
+    }
+    
+    .para {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+         
+}
+
+
