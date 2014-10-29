@@ -152,6 +152,11 @@ input[type="email"] {
     width: 100%;
 }
 
+.radio {
+    white-space: nowrap;
+}
+
+
 form {
     max-width: 30em;
     margin: 0 auto;
